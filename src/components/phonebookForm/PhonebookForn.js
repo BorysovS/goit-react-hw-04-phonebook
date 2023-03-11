@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 const ContactSchema = Yup.object().shape({
   name: Yup.string()
     .min(2, 'Too Short!')
-    .max(50, 'Too Long!')
+    .max(30, 'Too Long!')
     .required('Required'),
   number: Yup.string()
     .min(9, 'Format tel: xxx-xx-xx')
