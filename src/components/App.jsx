@@ -6,6 +6,8 @@ import { ContactList } from './contactsList/ContactList';
 import { Filter } from './filter/Filter';
 import initialContacts from './InitialContacts/initialContacts.json';
 
+
+// useState
 export class App extends Component {
   state = {
     contacts: [],
